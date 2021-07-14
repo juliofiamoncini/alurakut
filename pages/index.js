@@ -29,6 +29,7 @@ export default function Home() {
     image: 'https://alurakut.vercel.app/capa-comunidade-01.jpg'
   }]);
   const githubUser = 'juliofiamoncini';
+  //const comunidades = ['Alurakut'];
   const amigos = [
     'omariosouto',
     'juunegreiros',
@@ -40,7 +41,11 @@ export default function Home() {
 
   return (
     <>
+<<<<<<< HEAD
       <AlurakutMenu githubUser={githubUser} />
+=======
+      <AlurakutMenu gitHubUser={{ githubUser: 'githubUser' }} />
+>>>>>>> 87109eff86ec9af0b8949ff614572a4fd36dbb73
       <MainGrid>
         <div className="profileArea" style={{ gridArea: 'profileArea' }}>
           {/* <Box style="grid-area: profileArea;"> */}
