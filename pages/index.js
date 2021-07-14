@@ -29,6 +29,7 @@ export default function Home() {
     image: 'https://alurakut.vercel.app/capa-comunidade-01.jpg'
   }]);
   const githubUser = 'juliofiamoncini';
+  //const comunidades = ['Alurakut'];
   const amigos = [
     'omariosouto',
     'juunegreiros',
